@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,17 @@
 		F302A5E025AB3F7F0037CF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F302A5DF25AB3F7F0037CF8A /* Assets.xcassets */; };
 		F302A5E325AB3F7F0037CF8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F302A5E225AB3F7F0037CF8A /* Preview Assets.xcassets */; };
 		F302A5E625AB3F7F0037CF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F302A5E425AB3F7F0037CF8A /* LaunchScreen.storyboard */; };
+		F368253725AB4F9A00F4EAC0 /* DataFirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368253625AB4F9A00F4EAC0 /* DataFirstScreen.swift */; };
+		F368253A25AB4FAB00F4EAC0 /* DataSecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368253925AB4FAB00F4EAC0 /* DataSecondScreen.swift */; };
+		F368253E25AB56CD00F4EAC0 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368253D25AB56CD00F4EAC0 /* protocols.swift */; };
+		F37BDCD125AC3464003DA4D4 /* AnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37BDCD025AC3464003DA4D4 /* AnimationScreen.swift */; };
+		F37BDCD525AC7F5B003DA4D4 /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37BDCD425AC7F5B003DA4D4 /* LottieAnimation.swift */; };
+		F37BDCD925ACA817003DA4D4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F37BDCD825ACA817003DA4D4 /* Lottie */; };
+		F37BDCE425ACB34D003DA4D4 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37BDCE325ACB34D003DA4D4 /* LottieView.swift */; };
+		F37BDCE825ACC2AE003DA4D4 /* fb_icon.json in Resources */ = {isa = PBXBuildFile; fileRef = F37BDCE725ACC2AE003DA4D4 /* fb_icon.json */; };
+		F37BDCEB25ACC377003DA4D4 /* 43260-facebook-tab.json in Resources */ = {isa = PBXBuildFile; fileRef = F37BDCEA25ACC377003DA4D4 /* 43260-facebook-tab.json */; };
+		F3D5CD4B25AB5EE4009B0FE3 /* SlidesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D5CD4A25AB5EE4009B0FE3 /* SlidesScreen.swift */; };
+		F3D5CD5025AB5FA3009B0FE3 /* AlertDialogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D5CD4F25AB5FA3009B0FE3 /* AlertDialogScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,16 @@
 		F302A5E225AB3F7F0037CF8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F302A5E525AB3F7F0037CF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F302A5E725AB3F7F0037CF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F368253625AB4F9A00F4EAC0 /* DataFirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFirstScreen.swift; sourceTree = "<group>"; };
+		F368253925AB4FAB00F4EAC0 /* DataSecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSecondScreen.swift; sourceTree = "<group>"; };
+		F368253D25AB56CD00F4EAC0 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		F37BDCD025AC3464003DA4D4 /* AnimationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScreen.swift; sourceTree = "<group>"; };
+		F37BDCD425AC7F5B003DA4D4 /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
+		F37BDCE325ACB34D003DA4D4 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		F37BDCE725ACC2AE003DA4D4 /* fb_icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fb_icon.json; path = ../../../../Downloads/fb_icon.json; sourceTree = "<group>"; };
+		F37BDCEA25ACC377003DA4D4 /* 43260-facebook-tab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "43260-facebook-tab.json"; path = "../../../../Downloads/43260-facebook-tab.json"; sourceTree = "<group>"; };
+		F3D5CD4A25AB5EE4009B0FE3 /* SlidesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesScreen.swift; sourceTree = "<group>"; };
+		F3D5CD4F25AB5FA3009B0FE3 /* AlertDialogScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialogScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37BDCD925ACA817003DA4D4 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +80,17 @@
 		F302A5D525AB3F7E0037CF8A /* JuraevApp */ = {
 			isa = PBXGroup;
 			children = (
+				F37BDCDB25ACADCA003DA4D4 /* jsons */,
+				F37BDCCF25AC3451003DA4D4 /* Animations */,
+				F3D5CD4E25AB5F90009B0FE3 /* AlertDialog */,
+				F3D5CD4925AB5ED2009B0FE3 /* Slides */,
+				F368253C25AB56BF00F4EAC0 /* protocols */,
+				F368253525AB4F8000F4EAC0 /* DataScreens */,
 				F302A5D625AB3F7E0037CF8A /* AppDelegate.swift */,
 				F302A5D825AB3F7E0037CF8A /* SceneDelegate.swift */,
 				F302A5DA25AB3F7E0037CF8A /* ContentView.swift */,
-				F302A5DF25AB3F7F0037CF8A /* Assets.xcassets */,
-				F302A5E425AB3F7F0037CF8A /* LaunchScreen.storyboard */,
 				F302A5E725AB3F7F0037CF8A /* Info.plist */,
-				F302A5DC25AB3F7E0037CF8A /* JuraevApp.xcdatamodeld */,
+				F368253425AB4F6F00F4EAC0 /* apputils */,
 				F302A5E125AB3F7F0037CF8A /* Preview Content */,
 			);
 			path = JuraevApp;
@@ -76,6 +102,76 @@
 				F302A5E225AB3F7F0037CF8A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F368253425AB4F6F00F4EAC0 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				F302A5DF25AB3F7F0037CF8A /* Assets.xcassets */,
+				F302A5E425AB3F7F0037CF8A /* LaunchScreen.storyboard */,
+				F302A5DC25AB3F7E0037CF8A /* JuraevApp.xcdatamodeld */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		F368253525AB4F8000F4EAC0 /* DataScreens */ = {
+			isa = PBXGroup;
+			children = (
+				F368253625AB4F9A00F4EAC0 /* DataFirstScreen.swift */,
+				F368253925AB4FAB00F4EAC0 /* DataSecondScreen.swift */,
+			);
+			path = DataScreens;
+			sourceTree = "<group>";
+		};
+		F368253C25AB56BF00F4EAC0 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F368253D25AB56CD00F4EAC0 /* protocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F37BDCCF25AC3451003DA4D4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F37BDCD325AC7EFB003DA4D4 /* Lottie */,
+				F37BDCD025AC3464003DA4D4 /* AnimationScreen.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F37BDCD325AC7EFB003DA4D4 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				F37BDCD425AC7F5B003DA4D4 /* LottieAnimation.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		F37BDCDB25ACADCA003DA4D4 /* jsons */ = {
+			isa = PBXGroup;
+			children = (
+				F37BDCE325ACB34D003DA4D4 /* LottieView.swift */,
+				F37BDCEA25ACC377003DA4D4 /* 43260-facebook-tab.json */,
+				F37BDCE725ACC2AE003DA4D4 /* fb_icon.json */,
+			);
+			path = jsons;
+			sourceTree = "<group>";
+		};
+		F3D5CD4925AB5ED2009B0FE3 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5CD4A25AB5EE4009B0FE3 /* SlidesScreen.swift */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
+		F3D5CD4E25AB5F90009B0FE3 /* AlertDialog */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5CD4F25AB5FA3009B0FE3 /* AlertDialogScreen.swift */,
+			);
+			path = AlertDialog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +190,9 @@
 			dependencies = (
 			);
 			name = JuraevApp;
+			packageProductDependencies = (
+				F37BDCD825ACA817003DA4D4 /* Lottie */,
+			);
 			productName = JuraevApp;
 			productReference = F302A5D325AB3F7E0037CF8A /* JuraevApp.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +220,9 @@
 				Base,
 			);
 			mainGroup = F302A5CA25AB3F7E0037CF8A;
+			packageReferences = (
+				F37BDCD725ACA817003DA4D4 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = F302A5D425AB3F7E0037CF8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -135,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37BDCEB25ACC377003DA4D4 /* 43260-facebook-tab.json in Resources */,
+				F37BDCE825ACC2AE003DA4D4 /* fb_icon.json in Resources */,
 				F302A5E625AB3F7F0037CF8A /* LaunchScreen.storyboard in Resources */,
 				F302A5E325AB3F7F0037CF8A /* Preview Assets.xcassets in Resources */,
 				F302A5E025AB3F7F0037CF8A /* Assets.xcassets in Resources */,
@@ -149,9 +253,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F302A5DE25AB3F7E0037CF8A /* JuraevApp.xcdatamodeld in Sources */,
+				F3D5CD4B25AB5EE4009B0FE3 /* SlidesScreen.swift in Sources */,
+				F37BDCD125AC3464003DA4D4 /* AnimationScreen.swift in Sources */,
+				F368253E25AB56CD00F4EAC0 /* protocols.swift in Sources */,
+				F368253A25AB4FAB00F4EAC0 /* DataSecondScreen.swift in Sources */,
 				F302A5D725AB3F7E0037CF8A /* AppDelegate.swift in Sources */,
+				F37BDCD525AC7F5B003DA4D4 /* LottieAnimation.swift in Sources */,
 				F302A5D925AB3F7E0037CF8A /* SceneDelegate.swift in Sources */,
 				F302A5DB25AB3F7E0037CF8A /* ContentView.swift in Sources */,
+				F3D5CD5025AB5FA3009B0FE3 /* AlertDialogScreen.swift in Sources */,
+				F368253725AB4F9A00F4EAC0 /* DataFirstScreen.swift in Sources */,
+				F37BDCE425ACB34D003DA4D4 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +461,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F37BDCD725ACA817003DA4D4 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F37BDCD825ACA817003DA4D4 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F37BDCD725ACA817003DA4D4 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F302A5DC25AB3F7E0037CF8A /* JuraevApp.xcdatamodeld */ = {
